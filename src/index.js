@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+// Auth Stuff
+import { Provider } from 'react-redux';
+import store from './auth/store';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);

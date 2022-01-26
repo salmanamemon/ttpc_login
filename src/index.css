@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button:focus{
+  outline: none;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btn{
+  padding: 10px 30px;
+  background-color: transparent;
+  border:2px solid #fff;
+  color: #fff;
+  border-radius: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.text-center{
+  text-align: center;
+}
+
+
+/* Login */
+.wrapper {
+  background-color: #fff;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 6px;
+  min-width: 320px;
+  text-align: left;
+}
+.dashboard{
+  background-color: rgb(80, 80, 80);
+  min-height: 300px;
+}
+
+.wrapper input {
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+
+.wrapper h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.wrapper .btn {
+  background-color: #000;
+  display: block;
+  width: 100%;
+  margin: 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.wrapper .btn:hover {
+  background-color: #d2cfcf;
+}
+.wrapper form {
+  width: 100%;
+}
+
+.wrapper label {
+  color:#000
+}
+.wrapper .error{
+  color: #fd0000;
+  position: absolute;
+  margin-top: -22px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.wrapper .signUp{
+  margin-top: 20px;
+}
+.copyRight{
+  margin-top: 20px;
+  color: #fff;
+}
